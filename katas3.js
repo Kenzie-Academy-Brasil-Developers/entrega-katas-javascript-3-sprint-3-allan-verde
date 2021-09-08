@@ -83,7 +83,7 @@ showResults(kata7())
 function kata8() {
     let newArray = []
     for (let i = 100; i >= 1; i--) {
-        if(i % 3 === 0 && i % 7 === 0) {
+        if(i % 3 === 0 || i % 7 === 0) {
             newArray.push(i)
         }
     }
